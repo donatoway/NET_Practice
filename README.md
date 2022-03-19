@@ -78,6 +78,7 @@ rappresenta la Mask con uno Slash "/"", seguito dal numero di bits  che servono 
 Quindi, La Mask nell'esempio seguente 255.255.255.128, è /25, dato che ci sono 25 bits su 32
 che rappresentano il Network Address.
 
+
 # Come convertire un Ip decimale in binario :
 
 Link : https://www.guidetti-informatica.net/2021/04/impara-i-numeri-binari-e-decimali-in-rete-parte-10/
