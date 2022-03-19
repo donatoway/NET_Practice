@@ -44,7 +44,7 @@ IP address | 01101000.11000110.11110001.01111101
 Mask       | 11111111.11111111.11111111.10000000
 
 Applicano il bitwise And avremo (sovrapponendo i due binari) dove in entrambi i casi c'é un 1
-prevale l'1 mentre negli altri casi quindi:
+prevale l'1 mentre negli altri casi 0 quindi:
 
 Network address | 01101000.11000110.11110001.00000000
 
