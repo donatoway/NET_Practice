@@ -30,8 +30,8 @@ Una subnet Mask è un indirizzo composto da 32 bits usato per dividere un Networ
 
 Un'Interfaccia A ha le seguenti proprietá:
 
-IP address | 104.198.241.125
-Mask       | 255.255.255.128
+IP address | 104.198.241.125\n
+Mask       | 255.255.255.128\n
 
 Per determinare quale porzione dell'IP è il Network Address, abbiamo bisogno di Applicare la SubnetMask.
 Convertiamo prima la Mask nella forma Binaria :
