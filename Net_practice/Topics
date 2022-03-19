@@ -68,7 +68,21 @@ Tuttavia le estremità non sono utilizate poiche hanno usi specifici per usi spe
 104.198.241.127 | Reserved as the broadcast address; used to send packets 
 to all hosts of a network.
 
+CIDR Notation (/24)
 
+La Mask puo inoltre essere rappresentata come Classless Inter-Domain Routing (CIDR). Questa
+rappresenta la Mask con uno Slash "/"", seguito dal numero di bits  che servono come Network Address
+
+Quindi, La Mask nell'esempio seguente 255.255.255.128, è /25, dato che ci sono 25 bits su 32
+che rappresentano il Network Address.
+
+Come convertire un Ip decimale in binario :
+
+Link : https://www.guidetti-informatica.net/2021/04/impara-i-numeri-binari-e-decimali-in-rete-parte-10/
+
+Come convertire un Numero binario in Decimale :
+
+Link : https://www.wikihow.it/Convertire-un-Numero-dal-Sistema-Binario-a-Quello-Decimale
 
 
 
