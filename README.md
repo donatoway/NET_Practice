@@ -110,9 +110,9 @@ Un Router connette sia i devices ma anche diverse Reti Network  tra loro. Il Rou
 per ogni Network a cui si connette.
 Poiché il router separa diverse reti, l'intervallo di possibili indirizzi IP su una delle sue interfacce non deve sovrapporsi all'intervallo delle altre sue interfacce. Una sovrapposizione nell'intervallo di indirizzi IP implicherebbe che le interfacce si trovano sulla stessa rete.
 
-https://betaingegneria.it/wp-content/uploads/2021/01/routing_intro.png
+![alt text](https://betaingegneria.it/wp-content/uploads/2021/01/routing_intro.png)
 
-Tabelle di Routing
+# Tabelle di Routing
 
 Una tabella di routing é una tabella di dati salvata in un router o un Network Host che da informazioni su come raggiungere e collegarsi al prossimo Network. In NetPractice,il routing
 table è composto da 2 elementi:
@@ -120,6 +120,8 @@ table è composto da 2 elementi:
 Destination: Destinazione: la destinazione specifica un indirizzo di rete su cui un host è la destinazione finale dei pacchetti. Il percorso di default o 0.0.0.0/0, è il percorso che ha effetto quando nessun altro percorso è disponibile per un indirizzo di destinazione IP. Il percorso predefinito utilizzerà l'indirizzo dell'hop successivo per inviare i pacchetti in viaggio senza fornire una destinazione specifica. Il percorso predefinito corrisponderà a qualsiasi rete.
 
 Next hop: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
+
+![alt text](https://download-hk.huawei.com/mdl/image/download?uuid=dd865a91d56946fabdc44f22e77f9c41)
 
 
 
