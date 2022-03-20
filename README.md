@@ -6,6 +6,7 @@ Il protocollo TCP/IP indica l'uso combinato di 2 protocolli (un protocollo è un
 per la trasmissione di dati su internet, TCP (Trasmission Control Protocol) e IP (Internet Protocol).
 Il protocollo TCP crea la connessione tra 2 host e gestisce la consegna da un sistema all'altro, mentre il protocollo IP fornisce le istruzioni per il trasferimento di dati. Per dividere questi 2 protocolli si utilizza una subnetMask
 
+![alt text](https://vitolavecchia.altervista.org/wp-content/uploads/2019/06/Caratteristiche-e-livelli-del-modello-TCP-IP-nelle-reti-di-telecomunicazioni.png)
 # Indirizzi IP publici e indirizzi IP privati
 
 Public Ip : un indirizzo publico puó essere raggiunto direttamente dall' esterno quindi da internet ed é assegnato dal tuo router tramite il tuo Provider. Un Public Ip ti aiuta a connetterti dall'interno del tuo network all'esterno.
@@ -119,7 +120,7 @@ table è composto da 2 elementi:
 
 Destination: Destinazione: la destinazione specifica un indirizzo di rete su cui un host è la destinazione finale dei pacchetti. Il percorso di default o 0.0.0.0/0, è il percorso che ha effetto quando nessun altro percorso è disponibile per un indirizzo di destinazione IP. Il percorso predefinito utilizzerà l'indirizzo dell'hop successivo per inviare i pacchetti in viaggio senza fornire una destinazione specifica. Il percorso predefinito corrisponderà a qualsiasi rete.
 
-Next hop: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
+Next Hop: L'hop successivo si riferisce al router successivo più vicino che un pacchetto può attraversare. È l'indirizzo IP del prossimo router in arrivo. Ogni singolo router mantiene la propria tabella di routing con un indirizzo di hop successivo.
 
 ![alt text](https://download-hk.huawei.com/mdl/image/download?uuid=dd865a91d56946fabdc44f22e77f9c41)
 
