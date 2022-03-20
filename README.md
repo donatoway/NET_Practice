@@ -6,6 +6,8 @@ Il protocollo TCP/IP indica l'uso combinato di 2 protocolli (un protocollo è un
 per la trasmissione di dati su internet, TCP (Trasmission Control Protocol) e IP (Internet Protocol).
 Il protocollo TCP crea la connessione tra 2 host e gestisce la consegna da un sistema all'altro, mentre il protocollo IP fornisce le istruzioni per il trasferimento di dati. Per dividere questi 2 protocolli si utilizza una subnetMask
 
+A differenza dell iso/osi model il tcp/ip model ha 4 livelli su cui passano i dati invece che 6
+
 ![alt text](https://vitolavecchia.altervista.org/wp-content/uploads/2019/06/Caratteristiche-e-livelli-del-modello-TCP-IP-nelle-reti-di-telecomunicazioni.png)
 # Indirizzi IP publici e indirizzi IP privati
 
