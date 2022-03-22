@@ -127,4 +127,9 @@ Next Hop: L'hop successivo si riferisce al router successivo più vicino che un 
 ![alt text](https://download-hk.huawei.com/mdl/image/download?uuid=dd865a91d56946fabdc44f22e77f9c41)
 
 
+# Video lezione su come vengono utilizzate le tabelle di routing
+
+link : https://www.youtube.com/watch?v=mydJgo2K3Ok
+
+
 
