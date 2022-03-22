@@ -6,6 +6,9 @@ Il protocollo TCP/IP indica l'uso combinato di 2 protocolli (un protocollo è un
 per la trasmissione di dati su internet, TCP (Trasmission Control Protocol) e IP (Internet Protocol).
 Il protocollo TCP crea la connessione tra 2 host e gestisce la consegna da un sistema all'altro, mentre il protocollo IP fornisce le istruzioni per il trasferimento di dati. Per dividere questi 2 protocolli si utilizza una subnetMask
 
+A differenza dell iso/osi model il tcp/ip model ha 4 livelli su cui passano i dati invece che 6
+
+![alt text](https://vitolavecchia.altervista.org/wp-content/uploads/2019/06/Caratteristiche-e-livelli-del-modello-TCP-IP-nelle-reti-di-telecomunicazioni.png)
 # Indirizzi IP publici e indirizzi IP privati
 
 Public Ip : un indirizzo publico puó essere raggiunto direttamente dall' esterno quindi da internet ed é assegnato dal tuo router tramite il tuo Provider. Un Public Ip ti aiuta a connetterti dall'interno del tuo network all'esterno.
@@ -96,4 +99,32 @@ Link : https://www.guidetti-informatica.net/2021/04/impara-i-numeri-binari-e-dec
 # Come convertire un Numero binario in Decimale :
 
 Link : https://www.wikihow.it/Convertire-un-Numero-dal-Sistema-Binario-a-Quello-Decimale
+
+# Cos'è nuo Switch
+
+Uno switch connette multipli devices insieme in un singolo network. A differenza del router, 
+lo switch non ha nessuna interafaccia, ha solo il compito di distribuire i pacchetti all' interno del Network e non può comunicare direttamente al di fuori del suo network.
+
+Se vuoi conoscere alcune curiosità sullo Switch : Link https://www.zerounoweb.it/techtarget/searchdatacenter/configurazione-di-rete-e-significato-dello-switch-tecnologia-storia-e-vantaggi/
+
+# Cos'é un Router 
+
+Un Router connette sia i devices ma anche diverse Reti Network  tra loro. Il Router ha un Interfaccia
+per ogni Network a cui si connette.
+Poiché il router separa diverse reti, l'intervallo di possibili indirizzi IP su una delle sue interfacce non deve sovrapporsi all'intervallo delle altre sue interfacce. Una sovrapposizione nell'intervallo di indirizzi IP implicherebbe che le interfacce si trovano sulla stessa rete.
+
+![alt text](https://betaingegneria.it/wp-content/uploads/2021/01/routing_intro.png)
+
+# Tabelle di Routing
+
+Una tabella di routing é una tabella di dati salvata in un router o un Network Host che da informazioni su come raggiungere e collegarsi al prossimo Network. In NetPractice,il routing
+table è composto da 2 elementi:
+
+Destination: Destinazione: la destinazione specifica un indirizzo di rete su cui un host è la destinazione finale dei pacchetti. Il percorso di default o 0.0.0.0/0, è il percorso che ha effetto quando nessun altro percorso è disponibile per un indirizzo di destinazione IP. Il percorso predefinito utilizzerà l'indirizzo dell'hop successivo per inviare i pacchetti in viaggio senza fornire una destinazione specifica. Il percorso predefinito corrisponderà a qualsiasi rete.
+
+Next Hop: L'hop successivo si riferisce al router successivo più vicino che un pacchetto può attraversare. È l'indirizzo IP del prossimo router in arrivo. Ogni singolo router mantiene la propria tabella di routing con un indirizzo di hop successivo.
+
+![alt text](https://download-hk.huawei.com/mdl/image/download?uuid=dd865a91d56946fabdc44f22e77f9c41)
+
+
 
